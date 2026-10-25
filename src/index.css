@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fbf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-bright: #fbf9f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f0;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #eae8e5;
+  --color-surface-container-highest: #e4e2df;
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #4f453e;
+  --color-inverse-surface: #30312f;
+  --color-inverse-on-surface: #f2f0ed;
+  --color-outline: #81756d;
+  --color-outline-variant: #d2c4bb;
+  --color-surface-tint: #725947;
+  --color-primary: #322011;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #4a3525;
+  --color-on-primary-container: #bb9d88;
+  --color-inverse-primary: #e1c0aa;
+  --color-secondary: #885123;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fdb47d;
+  --color-on-secondary-container: #774416;
+  --color-tertiary: #391d00;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #582f00;
+  --color-on-tertiary-container: #d69557;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #fedcc5;
+  --color-primary-fixed-dim: #e1c0aa;
+  --color-on-primary-fixed: #29180a;
+  --color-on-primary-fixed-variant: #594231;
+  --color-secondary-fixed: #ffdcc4;
+  --color-secondary-fixed-dim: #ffb780;
+  --color-on-secondary-fixed: #2f1400;
+  --color-on-secondary-fixed-variant: #6c3a0d;
+  --color-tertiary-fixed: #ffdcc0;
+  --color-tertiary-fixed-dim: #feb877;
+  --color-on-tertiary-fixed: #2d1600;
+  --color-on-tertiary-fixed-variant: #6a3b02;
+  --color-background: #fbf9f6;
+  --color-on-background: #1b1c1a;
+  --color-surface-variant: #e4e2df;
+  --color-walnut-deep: #2F2117;
+  --color-charcoal-main: #1C1A17;
+  --color-charcoal-soft: #24221F;
+  --color-surface-warm: #F5F1EB;
+  --color-sand-border: #E8E2D8;
+  --color-sand-muted: #D8CEBE;
+  --color-whatsapp-consult: #25D366;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+::selection {
+  background-color: #E8E2D8;
+  color: #2F2117;
+}
+

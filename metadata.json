@@ -1,0 +1,6 @@
+{
+  "name": "Spike Wood Furniture Showroom",
+  "description": "Bespoke solid hardwood furniture showroom in Islamabad crafting custom walnut, teak, and sheesham living, dining, bedroom, and study collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
